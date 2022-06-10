@@ -1,0 +1,22 @@
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Ignore all local history of files
+.history
+.ionide
+
+# Ignore pypi Persisted Data
+pypi_data/*
+# Keep the folder so that the image builds
+!pypi_data/.gitkeep
